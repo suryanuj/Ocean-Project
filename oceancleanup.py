@@ -32,7 +32,7 @@ class OceanGame(arcade.Window):
         super().__init__(screen_width, screen_height, title)
 
         #Sets the background color
-        arcade.set_background_color(arcade.color.LIGHT_BLUE)
+        arcade.set_background_color(arcade.color.BLUE)
 
         #Queues the intro screen
         self.current_state = INTRO_SCREEN
@@ -151,12 +151,12 @@ class OceanGame(arcade.Window):
             #Next screen.
             self.current_state = BEGIN_TO_PLAY_SCREEN
 
-        if self.current_state == BEGIN_TO_PLAY_SCREEN:
+        elif self.current_state == BEGIN_TO_PLAY_SCREEN:
             #Intro Screen
             self.setup()
             self.current_state = GAME_RUNNING_SCREEN
 
-        if self.current_state == GAME_OVER_SCREEN:
+        elif self.current_state == GAME_OVER_SCREEN:
             #Restart Game
             self.setup()
             self.current_state = GAME_RUNNING_SCREEN
