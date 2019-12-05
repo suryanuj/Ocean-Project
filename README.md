@@ -5,10 +5,14 @@ This is the final project for CISC108 Honors.
 >To clean the ocean by using the trash can and collecting different types of trash on the screen.
 
 **About**: 
->add paragraph about the game*
+>This game was created using the python library, arcade. The objective of the game is to collect all of the trash on the
+> screen with the trash can. This game is symbolic, in the sense that the ocean is filled with trash. Those trash items 
+>include soda cans, straws, bags, water bottles, chemicals, etc. All of those items are in the game as the trash you can
+> clean up. The message of the game is to bring awareness to cleaning our oceans. By using the concepts learned in 
+>CISC108 and the python arcade, I was able to create a game that allows one to clean up the ocean from their computer. 
 
 **Preview the Game**: 
->add link to a video of the game
+>Click the [link](https://drive.google.com/file/d/1NHQVEPUWO9APW0sSrIg5YjIT4Vvq-K6T/view?usp=sharing) to view a gameplay. 
 
 **Installation**: 
 ```
