@@ -1,26 +1,27 @@
 # Ocean Cleanup Game
 This is the final project for CISC108 Honors.
 
-Game Concept: To clean the ocean by using the trash can and collecting different types of trash on the screen.
+**Game Concept**: To clean the ocean by using the trash can and collecting different types of trash on the screen.
 
-About: *add paragraph about the game*
+**About**: >add paragraph about the game*
 
-Preview the Game: *add link to a video of the game*
+**Preview the Game**: >add link to a video of the game
 
-Installation: 
+**Installation**: 
 ```
 > pip install -r requirements.txt
 ```
 ```
-> python main_game_file.py
+> python oceancleanup.py
 ```
 
-Instructions: To play the game, hover your mouse over a piece of trash. When that occurs, the trash gets thrown away and your score increases. 
+**Instructions**: To play the game, hover your mouse over a piece of trash. When that occurs, the trash gets thrown away and your score increases. 
 
-Authors: Suryanuj Gupta, suryanuj@udel.edu
+**Authors**: Suryanuj Gupta, suryanuj@udel.edu
 
-Acknowledgements:
-#Works Cited
+**Acknowledgements**:
+
+###Works Cited
 
 Trash Can Sprite: https://pixabay.com/illustrations/trash-waste-recycling-recyclable-3340485/
 
