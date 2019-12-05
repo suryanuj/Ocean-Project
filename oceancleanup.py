@@ -1,3 +1,4 @@
+#imports the files (arcade files and the random interger files)
 import arcade
 import random
 
@@ -9,7 +10,7 @@ SPRITE_SCALING_BAG = .1
 SPRITE_SCALING_SODA = .06
 SPRITE_SCALING_STRAW = .1
 
-#Amount of trashgi present on the game screen
+#Amount of trash present on the game screen
 TRASH_COUNT = random.randint(0,300)
 
 #Size of the screen and title of the screen
@@ -24,8 +25,8 @@ GAME_RUNNING_SCREEN = 2
 GAME_OVER_SCREEN = 3
 
 #the game class that has different functions inside of it
+#This function is the main application class
 class OceanGame(arcade.Window):
-    #This function is the main application class
     def __init__(self, screen_width, screen_height, title):
         #Calls the parent constructor. Required and must be the first line.
         super().__init__(screen_width, screen_height, title)
@@ -84,7 +85,6 @@ class OceanGame(arcade.Window):
             BAG.center_y = random.randrange(SCREEN_HEIGHT)
             self.trash_list.append(BAG)
 
-
             #Adds the soda can to the game screen and to the trash list
             SODA = arcade.Sprite("images/sprites/sodacan.png", SPRITE_SCALING_SODA)
             SODA.center_x = random.randrange(SCREEN_WIDTH)
@@ -124,7 +124,6 @@ class OceanGame(arcade.Window):
         total = f"# of Trash Collected: {self.score}"
         arcade.draw_text(total, 10, 20, arcade.color.WHITE, 14)
 
-
     #Draws the different screens depending on the current screen it is in.
     def on_draw(self):
 
@@ -147,20 +146,24 @@ class OceanGame(arcade.Window):
     #Allows the screen to change when you click the mouse
     def on_mouse_press(self, x, y, button, modifiers):
         #Change states as needed.
+
         if self.current_state == INTRO_SCREEN:
             #Next screen.
             self.current_state = BEGIN_TO_PLAY_SCREEN
-        elif self.current_state == BEGIN_TO_PLAY_SCREEN:
+
+        if self.current_state == BEGIN_TO_PLAY_SCREEN:
             #Intro Screen
             self.setup()
             self.current_state = GAME_RUNNING_SCREEN
-        elif self.current_state == GAME_OVER_SCREEN:
+
+        if self.current_state == GAME_OVER_SCREEN:
             #Restart Game
             self.setup()
             self.current_state = GAME_RUNNING_SCREEN
 
     def on_mouse_motion(self, x, y, dx, dy):
         #Only moves the user if the game is running.
+
         if self.current_state == GAME_RUNNING_SCREEN:
             self.TRASHCAN_sprite.center_x = x
             self.TRASHCAN_sprite.center_y = y
@@ -187,11 +190,9 @@ class OceanGame(arcade.Window):
                 self.current_state = GAME_OVER_SCREEN
                 self.set_mouse_visible(True)
 
-
 def main():
     OceanGame(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
     arcade.run()
-
 
 if __name__ == "__main__":
     main()
