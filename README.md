@@ -23,6 +23,8 @@ This is the final project for CISC108 Honors.
 
 **Acknowledgements**:
 
+
+
 ### Works Cited
 
 [Trash Can Sprite](https://pixabay.com/illustrations/trash-waste-recycling-recyclable-3340485/)
@@ -39,9 +41,11 @@ This is the final project for CISC108 Honors.
 
 [Background Image (Beach Image)](https://www.goodfreephotos.com/vector-images/sandy-beach-with-waves-vector-clipart.png.php)
 
+
+
 ### Arcade Resources
->Arcade Files: http://arcade.academy/installation.html
+>[Arcade Files](http://arcade.academy/installation.html)
 
->Arcade Package API: http://arcade.academy/arcade.html
+>[Arcade Package API](http://arcade.academy/arcade.html)
 
->Arcade Templates: http://arcade.academy/examples/index.html
+>[Arcade Templates](http://arcade.academy/examples/index.html)
