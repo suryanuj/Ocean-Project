@@ -10,7 +10,7 @@ SPRITE_SCALING_SODA = .06
 SPRITE_SCALING_STRAW = .1
 
 #Amount of trashgi present on the game screen
-TRASH_COUNT = 10#random.randint(0,300)
+TRASH_COUNT = random.randint(0,300)
 
 #Size of the screen and title of the screen
 SCREEN_WIDTH = 800
