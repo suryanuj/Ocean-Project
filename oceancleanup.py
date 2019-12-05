@@ -1,4 +1,4 @@
-#imports the files (arcade files and the random interger files)
+#imports the files (arcade files and the random integer files)
 import arcade
 import random
 

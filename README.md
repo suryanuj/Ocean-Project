@@ -17,7 +17,7 @@ This is the final project for CISC108 Honors.
  
 
 **Preview the Game**: 
->Click the [link](https://drive.google.com/file/d/1NHQVEPUWO9APW0sSrIg5YjIT4Vvq-K6T/view?usp=sharing) to view a gameplay. 
+>Click the [link](https://drive.google.com/file/d/1TMEvTv3wtZTxunXWUOnTIW5ANOG_ovkq/view?usp=sharing) to view a gameplay. 
 
 **Installation**: 
 ```
