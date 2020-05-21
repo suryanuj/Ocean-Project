@@ -1,10 +1,10 @@
 # Ocean Cleanup Game
-This is the final project for CISC108 Honors.
+This is the final project for CISC108H (Introduction to Computer Science Honors).
 
 **Game Concept**: 
 >To clean the ocean by using the trash can and collecting different types of trash on the screen.
 
-**About**: 
+ 
 >This game was created using the python library, arcade. The objective of the game is to collect all of the trash on the
 > screen with the trash can. When you first play the game, it takes you to an intro page. When you click that page, it 
 >takes you to an instructions page. After reading the instructions, you click the screen, which then takes you to the 
